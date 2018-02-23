@@ -9,6 +9,6 @@ setup(name="systeminfo",
 	licence="GP3",
 	packages=['systeminfo'],
 	entry_points={
-		'consol_scripts':['comp30670_systeminfo=systeminfo.main:main']
+		'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
 		}
 	)
